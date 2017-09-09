@@ -5,3 +5,10 @@ scala_binary(
     ],
     main_class = "foo.FooRunner"
 )
+
+scala_repl(
+    name = "repl",
+    deps = [
+        "//foo"
+    ]
+)

@@ -1,7 +1,7 @@
 # Minimal Bazel Scala Example
 
-A simple example of a Scala multi-module project
-configured to build using [Bazel](https://www.bazel.build).
+A simple example of a Scala multi-module project configured to build
+using [Bazel](https://www.bazel.build).
 
 Including:
 
@@ -23,6 +23,11 @@ Feedback / pull requests welcome.
 Or, once built using Bazel, call the generated run-script:
 
     bazel-bin/runner
+
+## Start a REPL
+
+    bazel build repl
+    bazel-bin/repl
 
 ## Review the dependency graph
 

@@ -5,10 +5,10 @@ configured to build using [Bazel](https://www.bazel.build).
 
 Including:
 
-* A main class `Runner`
-* A library `Foo` which depends on library `bar`
+* A main class `foo.FooRunner`
+* A library `foo` which depends on library `bar`
 * An external dependency (ScalaTest)
-* A test `RunnerTest`
+* A test `foo.FooTest`
 
 Feedback / pull requests welcome.
 

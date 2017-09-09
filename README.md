@@ -12,17 +12,17 @@ Including:
 
 Feedback / pull requests welcome.
 
-## Running Test
+## Running All Tests
 
     bazel test //...
 
-## Running
+## Running App
 
     bazel run runner
 
 Or, once built using Bazel, call the generated run-script:
 
-    bazel-bin/Runner
+    bazel-bin/runner
 
 ## Review the dependency graph
 
